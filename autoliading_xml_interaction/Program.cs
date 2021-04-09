@@ -6,9 +6,8 @@ namespace autoliading_xml_interaction
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-            DeserializeJson meth = new();
-            meth.JsonReader();
+            CategoryContainer cat = new CategoryContainer();
+            cat.ImportDataFromFile(Console.ReadLine().Trim('"'));
         }
     }
 }
