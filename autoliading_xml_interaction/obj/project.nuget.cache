@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kulqkhOTUI9oJpLjVWFlsiQJReZtQldBGzBjuEjNV1CUEIpn+1ssubOJbbFyMMrewhC7vHnu/MS1n6xZzBsD1g==",
+  "dgSpecHash": "bcKeEEEeJR8coz7kJ4MyjXwtkC4K7IiQ+V5vUcFVPAbzHvmG5MueHsqKmv9enMiXBrzk2utN8zEV0pXl7MYCFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Andrey\\source\\repos\\autoliading_xml_interaction\\autoliading_xml_interaction\\autoliading_xml_interaction.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Andrey\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
