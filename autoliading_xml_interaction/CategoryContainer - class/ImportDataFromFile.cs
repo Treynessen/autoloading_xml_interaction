@@ -1,5 +1,4 @@
 ﻿using System.IO;
-using System.Collections.Generic;
 
 namespace autoliading_xml_interaction
 {
@@ -8,12 +7,8 @@ namespace autoliading_xml_interaction
         public void ImportDataFromFile(string filePath)
         {
             using (StreamReader reader = new StreamReader(filePath)) 
-            {
-                
-                foreach (var category in WorkWithJsonData.DeserializeJson<Category>(reader.ReadToEnd()))
-                {
-                    categories.AddLast(category);
-                }
+            {   
+                foreach (var category in WorkWithJsonData.DeserializeJson<Category>(reader.ReadToEnd())) categories.AddLast(category); 
             }
         }
     }
