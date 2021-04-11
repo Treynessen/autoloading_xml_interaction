@@ -1,11 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace autoliading_xml_interaction
 {
     partial class YandexXmlParser
     {
-        public IEnumerable<string> ExtractAdsXmlContent()
+        //Делим полученный xml файл с объявлениями на список с объявлениями
+        public LinkedList<string> ExtractAdsXmlContent()
         {
             Regex regex = new Regex(@"<offer>([\s\S]+?)</offer>");
             Match match = regex.Match(xmlFileContent);

@@ -13,7 +13,7 @@ namespace autoliading_xml_interaction
             using(StreamReader reader = new StreamReader(Console.ReadLine().Trim('"')))
             {
                 YandexXmlParser parser = new YandexXmlParser(reader.ReadToEnd());
-                parser.ExtractAdsXmlContent();
+                parser.GetAdsContent();
             }
         }
     }
