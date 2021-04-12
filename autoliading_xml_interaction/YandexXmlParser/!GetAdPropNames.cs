@@ -9,18 +9,25 @@ namespace autoliading_xml_interaction
 {
     partial class YandexXmlParser
     {
-        //Через рефлексию получаем спосик имен свойств класса Ad
-        public LinkedList<string> GetAdPropNames()
+        //Через рефлексию получаем массив имен свойств класса Ad
+        public string[] GetAdPropNames()
         {
             Type myType = typeof(Ad);
-            LinkedList<string> propNames = new LinkedList<string>();
-
-            foreach (PropertyInfo mi in myType.GetProperties())
+            int x = 0;
+            foreach (PropertyInfo myT in myType.GetProperties())
             {
-                propNames.AddLast(mi.Name);
+                x++;
+                
             }
+            string[] adPropNames = new string[x];
+            int y = 0;
+            foreach (PropertyInfo myT in myType.GetProperties())
+            {
 
-            return propNames;
+                adPropNames[y] = myT.Name.ToString();
+                y++;
+            }
+            return adPropNames;
         }
     }
 }

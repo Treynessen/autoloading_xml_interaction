@@ -1,7 +1,7 @@
 ﻿
 namespace autoliading_xml_interaction
 {
-    //Храним свйоства для массива из входящего Json файла
+    //Храним свойства для массива из входящего Json файла
     public class Category
     {
         public string Id { get; set; }

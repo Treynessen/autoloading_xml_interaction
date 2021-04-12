@@ -8,8 +8,7 @@ namespace autoliading_xml_interaction
 {
     public class Ad
     {
-        private string category_id;
-        public string CATEGORY_ID { get => category_id;  set => category_id += value; }
+        public string CATEGORY_ID { get; set; }
         public string END_DATE { get; set; }
         public string id { get; set; }
         public string title { get; set; }

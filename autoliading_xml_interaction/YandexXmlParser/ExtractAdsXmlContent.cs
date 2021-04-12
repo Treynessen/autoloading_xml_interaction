@@ -7,7 +7,7 @@ namespace autoliading_xml_interaction
     partial class YandexXmlParser
     {
         //Делим полученный xml файл с объявлениями на список с объявлениями
-        public LinkedList<string> ExtractAdsXmlContent()
+        private LinkedList<string> ExtractAdsXmlContent()
         {
             Regex regex = new Regex(@"<offer>([\s\S]+?)</offer>");
             Match match = regex.Match(xmlFileContent);
