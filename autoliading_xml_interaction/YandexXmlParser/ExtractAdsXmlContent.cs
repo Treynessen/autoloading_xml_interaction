@@ -25,9 +25,8 @@ namespace autoliading_xml_interaction
                     @"<price>(?<PRICE>(\d+))</price>\s{0,2}" + // Извлечение Price из <price>цена</price>" +
                 "</offer>"
             );
-            MatchCollection matches = regex.Matches(xmlFileContent);
             LinkedList<Ad> adList = new LinkedList<Ad>();
-            foreach (Match match in matches)
+            foreach (Match match in regex.Matches(xmlFileContent))
             {
                 Ad ad = new Ad
                 {
