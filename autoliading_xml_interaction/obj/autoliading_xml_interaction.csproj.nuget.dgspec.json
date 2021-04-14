@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\trane\\Desktop\\Github\\autoloading_xml_interaction\\autoliading_xml_interaction\\autoliading_xml_interaction.csproj": {}
+    "C:\\Users\\Andrey\\source\\repos\\autoliading_xml_interaction\\autoliading_xml_interaction\\autoliading_xml_interaction.csproj": {}
   },
   "projects": {
-    "C:\\Users\\trane\\Desktop\\Github\\autoloading_xml_interaction\\autoliading_xml_interaction\\autoliading_xml_interaction.csproj": {
+    "C:\\Users\\Andrey\\source\\repos\\autoliading_xml_interaction\\autoliading_xml_interaction\\autoliading_xml_interaction.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\trane\\Desktop\\Github\\autoloading_xml_interaction\\autoliading_xml_interaction\\autoliading_xml_interaction.csproj",
+        "projectUniqueName": "C:\\Users\\Andrey\\source\\repos\\autoliading_xml_interaction\\autoliading_xml_interaction\\autoliading_xml_interaction.csproj",
         "projectName": "autoliading_xml_interaction",
-        "projectPath": "C:\\Users\\trane\\Desktop\\Github\\autoloading_xml_interaction\\autoliading_xml_interaction\\autoliading_xml_interaction.csproj",
-        "packagesPath": "C:\\Users\\trane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\trane\\Desktop\\Github\\autoloading_xml_interaction\\autoliading_xml_interaction\\obj\\",
+        "projectPath": "C:\\Users\\Andrey\\source\\repos\\autoliading_xml_interaction\\autoliading_xml_interaction\\autoliading_xml_interaction.csproj",
+        "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrey\\source\\repos\\autoliading_xml_interaction\\autoliading_xml_interaction\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\trane\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

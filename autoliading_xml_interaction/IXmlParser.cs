@@ -8,6 +8,6 @@ namespace autoliading_xml_interaction
 {
     interface IXmlParser
     {
-        IEnumerable<Ad> GetAds();
+        LinkedList<Ad> GetAds();
     }
 }

@@ -9,7 +9,7 @@ namespace autoliading_xml_interaction
         /// <summary>
         /// Парсинг переданного в конструктор xmlFileContent: извлечение значений для свойств объекта Ad
         /// </summary>
-        private LinkedList<Ad> ExtractAdsXmlContent()
+        public LinkedList<Ad> GetAds()
         {
             Regex regex = new Regex(
                 @"<offer>\s{0,2}" +
@@ -42,6 +42,7 @@ namespace autoliading_xml_interaction
                     month: Convert.ToInt32(splitedEndDate[1]),
                     day: Convert.ToInt32(splitedEndDate[2])
                 );
+                adList.AddLast(ad);
             }
             return adList;
         }

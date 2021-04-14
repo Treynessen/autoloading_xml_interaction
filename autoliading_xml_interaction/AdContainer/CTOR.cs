@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace autoliading_xml_interaction
 {
@@ -8,6 +9,12 @@ namespace autoliading_xml_interaction
         public AdContainer()
         {
             ads = new LinkedList<Ad>();
+        }
+
+        public AdContainer(LinkedList<Ad> ads)
+        {
+            if (ads != null) this.ads = ads;
+            else this.ads = new LinkedList<Ad>();
         }
     }
 }
