@@ -2,6 +2,7 @@
 
 namespace autoliading_xml_interaction
 {
+    // Храним свойства для массива из входящего XML файла
     public class Ad
     {
         public string Id { get; set; }

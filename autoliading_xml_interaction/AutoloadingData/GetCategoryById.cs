@@ -8,7 +8,6 @@ namespace autoliading_xml_interaction
 {
     partial class AutoloadingData
     {
-        AdContainer adContainer = new AdContainer();
-        public Ad GetAdId(string adId) => adContainer[adId];
+        public Category GetCategoryById(string categoryId) => categoryContainer[categoryId];
     }
 }

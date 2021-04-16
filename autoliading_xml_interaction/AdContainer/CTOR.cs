@@ -5,16 +5,11 @@ namespace autoliading_xml_interaction
 {
     partial class AdContainer
     {
-        LinkedList<Ad> ads = new LinkedList<Ad>();
+        private LinkedList<Ad> ads;
+        public IEnumerable<Ad> Ads => ads;
         public AdContainer()
         {
             ads = new LinkedList<Ad>();
-        }
-
-        public AdContainer(LinkedList<Ad> ads)
-        {
-            if (ads != null) this.ads = ads;
-            else this.ads = new LinkedList<Ad>();
         }
     }
 }

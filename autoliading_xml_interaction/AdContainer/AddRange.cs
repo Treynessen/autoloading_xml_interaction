@@ -8,6 +8,7 @@ namespace autoliading_xml_interaction
 {
     partial class AdContainer
     {
+        // зачем нам этот метод?
         public void AddRange(IEnumerable<Ad> ads)
         {
             foreach (var ad in ads) this.ads.AddLast(ad);

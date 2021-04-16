@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 
 namespace autoliading_xml_interaction
 {
@@ -9,7 +10,6 @@ namespace autoliading_xml_interaction
             using (StreamReader reader = new StreamReader(filePath))
             {
                 YandexXmlParser parser = new YandexXmlParser(reader.ReadToEnd());
-                parser.GetAds();
             }
         }
     }
