@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace autoliading_xml_interaction
 {
     partial class AdContainer
     {
-        // зачем нам этот метод?
         public void AddRange(IEnumerable<Ad> ads)
         {
             foreach (var ad in ads) this.ads.AddLast(ad);

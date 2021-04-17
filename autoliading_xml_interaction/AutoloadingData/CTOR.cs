@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace autoliading_xml_interaction
+﻿namespace autoliading_xml_interaction
 {
     partial class AutoloadingData
     {
