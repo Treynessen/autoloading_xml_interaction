@@ -5,6 +5,6 @@ namespace autoliading_xml_interaction
 {
     partial class AdContainer
     {
-        public IEnumerable<Ad> DeleteAdById(string id) => ads.Where(p => !p.Id.Equals(id)).ToList();
+        public void DeleteAdById(string id) => ads.Remove(this[id]);
     }
 }

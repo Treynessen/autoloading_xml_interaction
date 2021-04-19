@@ -1,11 +1,17 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 
 namespace autoliading_xml_interaction
 {
     partial class AutoloadingData
     {
-        public IEnumerable<Ad> DeleteCategoryAds(string catId) => adContainer.Ads.Where(p => !p.Id.Equals(catId)).ToList();  
+        public AdContainer DeleteCategoryAds(string catId)
+        {
+            foreach (var id in (List<string>)GetCategoryAds(catId))
+            {
+                adContainer.DeleteAdById(id);
+            }
+            return adContainer;
+        }
     }
 
 }
