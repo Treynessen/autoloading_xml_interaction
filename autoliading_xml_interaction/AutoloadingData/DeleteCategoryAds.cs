@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using System.Linq;
 
 namespace autoliading_xml_interaction
 {
@@ -6,12 +6,11 @@ namespace autoliading_xml_interaction
     {
         public AdContainer DeleteCategoryAds(string catId)
         {
-            foreach (var id in (List<string>)GetCategoryAds(catId))
+            foreach (var id in GetCategoryAds(catId).Select(ad => ad.Id))
             {
                 adContainer.DeleteAdById(id);
             }
             return adContainer;
         }
     }
-
 }
